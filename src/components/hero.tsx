@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <section className='h-screen bg-blue-500'>Hero</section>
   )
 }

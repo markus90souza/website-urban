@@ -4,6 +4,7 @@ import type { FC } from 'react'
 import { RiArrowRightUpFill } from 'react-icons/ri'
 import { Link as ScrollLink } from 'react-scroll'
 import { Logo } from './logo'
+import { MenuMobile } from './menu-mobile'
 
 const links = [
   {
@@ -30,7 +31,7 @@ const links = [
 
 const Header: FC = () => {
   return (
-    <header className='bg-primary py-4 sticky top-0'>
+    <header className='bg-primary py-4'>
       <div className="container px-5 xl:px-0 mx-auto">
         <div className="flex items-center justify-between">
           <Logo />
@@ -64,7 +65,9 @@ const Header: FC = () => {
               </div>
             </button>
           </nav>
-          <div className="xl:hidden">mobile</div>
+          <div className="xl:hidden">
+            <MenuMobile />
+          </div>
         </div>
       </div>
     </header>
