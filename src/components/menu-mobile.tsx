@@ -9,7 +9,7 @@ import {
   SheetTrigger
 } from '@/components/ui/sheet'
 
-import { RiMenu2Fill, RiMenu3Fill, RiMenu5Fill } from 'react-icons/ri'
+import {  RiMenu3Fill,  } from 'react-icons/ri'
 import { Logo } from './logo'
 import { Socials } from './socials'
 import { Link as ScrollLink } from 'react-scroll'

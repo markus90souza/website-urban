@@ -25,7 +25,7 @@ type RootLayoutProps = {
 }
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" suppressHydrationWarning>
       <body className={`${dmSans.variable} ${barlow.variable} antialiased`}>
         {children}
       </body>
