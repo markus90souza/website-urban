@@ -4,7 +4,7 @@ import { Button } from './button'
 
 export const Hero = () => {
   return (
-    <section className={`h-screen bg-gradient-to-t from-[#FFC221] to-[#FFD76E]`}>
+    <section className={`h-[80vh] bg-[url('/assets/img/hero/bg-hero.jpg')] bg-cover bg-center bg-no-repeat relative`}>
       <div className='absolute z-10 inset-0 bg-gradient-to-l from-black/0 via-black/50 to-black/70' />
       <div className="container mx-auto flex items-center h-full">
         <div className="z-20 flex flex-col items-center mx-auto text-white max-w-[600px] text-center xl:text-left xl:mx-0 xl:items-start">
