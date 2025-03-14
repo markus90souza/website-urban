@@ -113,7 +113,7 @@ export const Services = () => {
       <div className="container mx-auto px-5">
         <div className="text-center max-w-[540px] mx-auto mb-20">
           <PreTitle title="Our Services" center />
-          <h2 className="mb-4">
+          <h2 className="mb-4 text-primary">
             Solutions we Provide
           </h2>
           <p className="mx-auto max-w-[480px] mb-11 text-primary">

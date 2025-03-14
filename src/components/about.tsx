@@ -11,7 +11,7 @@ export const About = () => {
           <div className="flex-1">
             <div className="max-w-[540px]">
              <PreTitle title="About us"/>
-             <h2 className='mb-4'>Focused On Excellence in every project</h2>
+             <h2 className='mb-4 text-primary'>Focused On Excellence in every project</h2>
              <p className='mb-11 text-primary'>
               maiores sint est harum? Quas placeat, similique illo suscipit minus
               delectus, expedita quisquam consectetur odit aliquid recusandae
